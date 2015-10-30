@@ -2,146 +2,140 @@
 
 Various swatch collections.
 
-## `sega-master-system.ase`
+## Vintage (collection)
+
+All the vintage video game console swatch libraries listed here, all in one file sorted into groups:
+
+![vintage](vintage.png)
+
+## Sega Master System
 
 ![sega-master-system](sega-master-system.png)
 
-## `game-boy.ase`
+## Game Boy
 
 ![game-boy](game-boy.png)
 
-## `nes.ase`
+## Nes
 
 ![nes](nes.png)
 
-## `nes-gradients.ai`
-
-![nes-gradients](nes-gradients.png)
-
-## `web2.ase`
+## Web2
 
 ![web2](web2.png)
 
-## `web2-gradients.ase`
-
-![web2-gradients](web2-gradients.png)
-
-## `skin.ase`
+## Skin
 
 ![skin](skin.png)
 
-## `metal-gradients.ase`
-
-![metal-gradients](metal-gradients.png)
-
-## `fun.ase`
+## Fun
 
 ![fun](fun.png)
 
-## `zx-spectrum.ase`
+## Zx Spectrum
 
 ![zx-spectrum](zx-spectrum.png)
 
-## `vic-20.ase`
+## Vic 20
 
 ![vic-20](vic-20.png)
 
-## `thomson-mo5.ase`
+## Thomson Mo5
 
 ![thomson-mo5](thomson-mo5.png)
 
-## `tele-text.ase`
+## Tele Text
 
 ![tele-text](tele-text.png)
 
-## `msx2.ase`
+## Msx2
 
 ![msx2](msx2.png)
 
-## `msx.ase`
+## Msx
 
 ![msx](msx.png)
 
-## `mega-drive.ase`
+## Mega Drive
 
 ![mega-drive](mega-drive.png)
 
-## `mattel-aquarius.ase`
+## Mattel Aquarius
 
 ![mattel-aquarius](mattel-aquarius.png)
 
-## `master-system.ase`
+## Master System
 
 ![master-system](master-system.png)
 
-## `intellivision.ase`
+## Intellivision
 
 ![intellivision](intellivision.png)
 
-## `game-boy-color.ase`
+## Game Boy Color
 
 ![game-boy-color](game-boy-color.png)
 
-## `famicom.ase`
+## Famicom
 
 ![famicom](famicom.png)
 
-## `enhanced-graphics-adapter.ase`
+## Enhanced Graphics Adapter
 
 ![enhanced-graphics-adapter](enhanced-graphics-adapter.png)
 
-## `commodore-vic-20.ase`
+## Commodore Vic 20
 
 ![commodore-vic-20](commodore-vic-20.png)
 
-## `commodore-plus4.ase`
+## Commodore Plus4
 
 ![commodore-plus4](commodore-plus4.png)
 
-## `commodore-64.ase`
+## Commodore 64
 
 ![commodore-64](commodore-64.png)
 
-## `color-graphics-adapter.ase`
+## Color Graphics Adapter
 
 ![color-graphics-adapter](color-graphics-adapter.png)
 
-## `colecovision.ase`
+## Colecovision
 
 ![colecovision](colecovision.png)
 
-## `bbc-micro.ase`
+## Bbc Micro
 
 ![bbc-micro](bbc-micro.png)
 
-## `atari-2600.ase`
+## Atari 2600 Ntsc
 
-![atari-2600](atari-2600.png)
+![atari-2600](atari-2600-ntsc.png)
 
-## `apple-ii.ase`
+## Atari 2600 Pal
+
+![atari-2600](atari-2600-pal.png)
+
+## Apple Ii
 
 ![apple-ii](apple-ii.png)
 
-## `amstrad-cpc.ase`
+## Amstrad Cpc
 
 ![amstrad-cpc](amstrad-cpc.png)
 
-## `amiga.ase`
+## Amiga
 
 ![amiga](amiga.png)
 
-## `grayscale.ase`
+## Grayscale
 
 ![grayscale](grayscale.png)
 
-## `grayscale-expanded.ase`
-
-![grayscale-expanded](grayscale-expanded.png)
-
-## `seperator.ase`
+## Seperator
 
 ![seperator](seperator.png)
 
-## `default.ase`
+## Default
 
 ![default](default.png)
