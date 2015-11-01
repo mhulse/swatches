@@ -2,6 +2,10 @@
 
 Various swatch collections.
 
+## Color Cubes
+
+![color-cubes](color-cubes.png)
+
 ## Vintage (collection)
 
 All the vintage video game console swatch libraries listed here, all in one file sorted into groups:
@@ -16,7 +20,7 @@ All the vintage video game console swatch libraries listed here, all in one file
 
 ![game-boy](game-boy.png)
 
-## Nes
+## NES
 
 ![nes](nes.png)
 
@@ -32,7 +36,7 @@ All the vintage video game console swatch libraries listed here, all in one file
 
 ![fun](fun.png)
 
-## Zx Spectrum
+## ZX Spectrum
 
 ![zx-spectrum](zx-spectrum.png)
 
@@ -40,7 +44,7 @@ All the vintage video game console swatch libraries listed here, all in one file
 
 ![vic-20](vic-20.png)
 
-## Thomson Mo5
+## Thomson MO5
 
 ![thomson-mo5](thomson-mo5.png)
 
@@ -48,11 +52,11 @@ All the vintage video game console swatch libraries listed here, all in one file
 
 ![tele-text](tele-text.png)
 
-## Msx2
+## MSX2
 
 ![msx2](msx2.png)
 
-## Msx
+## MSX
 
 ![msx](msx.png)
 
@@ -104,29 +108,33 @@ All the vintage video game console swatch libraries listed here, all in one file
 
 ![colecovision](colecovision.png)
 
-## Bbc Micro
+## BBC Micro
 
 ![bbc-micro](bbc-micro.png)
 
-## Atari 2600 Ntsc
+## Atari 2600 NTSC
 
 ![atari-2600](atari-2600-ntsc.png)
 
-## Atari 2600 Pal
+## Atari 2600 PAL
 
 ![atari-2600](atari-2600-pal.png)
 
-## Apple Ii
+## Apple ii
 
 ![apple-ii](apple-ii.png)
 
-## Amstrad Cpc
+## Amstrad CPC
 
 ![amstrad-cpc](amstrad-cpc.png)
 
 ## Amiga
 
 ![amiga](amiga.png)
+
+## Grayscale Extended
+
+![grayscale-extended](grayscale-extended.png)
 
 ## Grayscale
 
