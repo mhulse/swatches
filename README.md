@@ -2,6 +2,12 @@
 
 Various swatch collections.
 
+## Crayola Crayons
+
+![crayola-crayons](crayola-crayons.png)
+
+Created by @beekman
+
 ## Color Cubes
 
 ![color-cubes](color-cubes.png)
