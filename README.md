@@ -6,7 +6,7 @@ Various swatch collections.
 
 ![crayola-crayons](crayola-crayons.png)
 
-Created by @beekman
+Created by [@beekman](https://github.com/beekman)
 
 ## Color Cubes
 
