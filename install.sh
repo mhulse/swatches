@@ -6,6 +6,9 @@ INSTALL_DIR="$(cd /Applications/Adobe\ Illustrator*/Presets.localized/en_US/Swat
 # Remote repo zip file containing all templates:
 SOURCE_ZIP="https://github.com/mhulse/swatches/tarball/master";
 
+# Clean previous installs:
+rm -rf "$INSTALL_DIR";
+
 # Create installation folder:
 mkdir -pv "$INSTALL_DIR";
 
