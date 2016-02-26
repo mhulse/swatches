@@ -7,7 +7,7 @@
 From the command line, run:
 
 ```bash
-bash <(curl -sL https://git.io/vzovJ)
+bash <(curl -sL https://git.io/vzonQ)
 ```
 
 This will install all Adobe Swatch Exchange swatches from this repo into your `/Applications/Adobe\ Illustrator CC\ 20XX/Presets.localized/en_US/Swatches/` directory.
