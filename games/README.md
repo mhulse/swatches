@@ -16,18 +16,6 @@ All the vintage video game console swatch libraries listed here, all in one file
 
 ![nes](nes.png)
 
-## Web2
-
-![web2](web2.png)
-
-## Skin
-
-![skin](skin.png)
-
-## Fun
-
-![fun](fun.png)
-
 ## ZX Spectrum
 
 ![zx-spectrum](zx-spectrum.png)
