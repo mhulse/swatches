@@ -12,7 +12,7 @@ function install() {
 	# Installation folder:
 	target="@mhulse"
 	
-	# Illustrator default template folder:
+	# Illustrator default folder:
 	INSTALL_DIR="/Applications/$1/Presets.localized/en_US/Swatches/"
 	
 	# Navigate to the installation directory:
@@ -24,10 +24,10 @@ function install() {
 	# Create installation folder:
 	mkdir -pv "$target"
 	
-	# Remote repo zip file containing all templates:
+	# Remote repo zip file:
 	SOURCE_ZIP="https://github.com/mhulse/swatches/tarball/master"
 	
-	# Get the zip file and extract all template files:
+	# Get the zip file and extract all files:
 	curl -sS -#L "$SOURCE_ZIP" | tar -xzv --strip-components 1 -C "./$target" "*.ase";
 	
 	# Let the use know that we are done:
@@ -110,4 +110,4 @@ exit 0
 
 # Done!
 # For more information about this script, see:
-# https://github.com/mhulse/illy-templates
+# https://github.com/mhulse/swatches
