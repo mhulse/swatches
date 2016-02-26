@@ -1,7 +1,7 @@
-## Grayscale Extended
-
-![grayscale-extended](grayscale-extended.png)
-
 ## Grayscale
 
-![grayscale](grayscale.png)
+![](grayscale.png)
+
+## Grayscale Extended
+
+![](grayscale-extended.png)

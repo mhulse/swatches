@@ -1,4 +1,4 @@
 ## Skin
 
-![skin](skin.png)
+![](skin.png)
 

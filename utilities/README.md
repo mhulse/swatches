@@ -1,7 +1,7 @@
-## Seperator
-
-![seperator](seperator.png)
-
 ## Default
 
-![default](default.png)
+![](default.png)
+
+## Seperator
+
+![](seperator.png)

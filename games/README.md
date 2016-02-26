@@ -2,112 +2,112 @@
 
 All the vintage video game console swatch libraries listed here, all in one file sorted into groups:
 
-![vintage](vintage.png)
+![](vintage.png)
 
 ## Sega Master System
 
-![sega-master-system](sega-master-system.png)
+![](sega-master-system.png)
 
 ## Game Boy
 
-![game-boy](game-boy.png)
+![](game-boy.png)
 
 ## NES
 
-![nes](nes.png)
+![](nes.png)
 
 ## ZX Spectrum
 
-![zx-spectrum](zx-spectrum.png)
+![](zx-spectrum.png)
 
 ## Vic 20
 
-![vic-20](vic-20.png)
+![](vic-20.png)
 
 ## Thomson MO5
 
-![thomson-mo5](thomson-mo5.png)
+![](thomson-mo5.png)
 
 ## Tele Text
 
-![tele-text](tele-text.png)
+![](tele-text.png)
 
 ## MSX2
 
-![msx2](msx2.png)
+![](msx2.png)
 
 ## MSX
 
-![msx](msx.png)
+![](msx.png)
 
 ## Mega Drive
 
-![mega-drive](mega-drive.png)
+![](mega-drive.png)
 
 ## Mattel Aquarius
 
-![mattel-aquarius](mattel-aquarius.png)
+![](mattel-aquarius.png)
 
 ## Master System
 
-![master-system](master-system.png)
+![](master-system.png)
 
 ## Intellivision
 
-![intellivision](intellivision.png)
+![](intellivision.png)
 
 ## Game Boy Color
 
-![game-boy-color](game-boy-color.png)
+![](game-boy-color.png)
 
 ## Famicom
 
-![famicom](famicom.png)
+![](famicom.png)
 
 ## Enhanced Graphics Adapter
 
-![enhanced-graphics-adapter](enhanced-graphics-adapter.png)
+![](enhanced-graphics-adapter.png)
 
 ## Commodore Vic 20
 
-![commodore-vic-20](commodore-vic-20.png)
+![](commodore-vic-20.png)
 
 ## Commodore Plus4
 
-![commodore-plus4](commodore-plus4.png)
+![](commodore-plus4.png)
 
 ## Commodore 64
 
-![commodore-64](commodore-64.png)
+![](commodore-64.png)
 
 ## Color Graphics Adapter
 
-![color-graphics-adapter](color-graphics-adapter.png)
+![](color-graphics-adapter.png)
 
 ## Colecovision
 
-![colecovision](colecovision.png)
+![](colecovision.png)
 
 ## BBC Micro
 
-![bbc-micro](bbc-micro.png)
+![](bbc-micro.png)
 
 ## Atari 2600 NTSC
 
-![atari-2600](atari-2600-ntsc.png)
+![](atari-2600-ntsc.png)
 
 ## Atari 2600 PAL
 
-![atari-2600](atari-2600-pal.png)
+![](atari-2600-pal.png)
 
 ## Apple ii
 
-![apple-ii](apple-ii.png)
+![](apple-ii.png)
 
 ## Amstrad CPC
 
-![amstrad-cpc](amstrad-cpc.png)
+![](amstrad-cpc.png)
 
 ## Amiga
 
-![amiga](amiga.png)
+![](amiga.png)

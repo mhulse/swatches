@@ -1,3 +1,3 @@
 ## Web2
 
-![web2](web2.png)
+![](web2.png)
