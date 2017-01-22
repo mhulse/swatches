@@ -16,7 +16,7 @@ function install() {
 	INSTALL_DIR="/Applications/$1/Presets.localized/en_US/Swatches/"
 	
 	# Navigate to the installation directory:
-	cd "$INSTALL_DIR"
+	cd "$INSTALL_DIR" || exit
 	
 	# Clean previous installs:
 	rm -rf "./$target"
@@ -38,21 +38,6 @@ function install() {
 	
 }
 
-# Check if Illustrator is installed:
-function check() {
-	
-	for f in "$1"; do
-		
-		# Check if the glob gets expanded to existing files.
-		# If not, f here will be exactly the pattern above
-		# and the exists test will evaluate to false.
-		[ -e "$f" ] && return 0  || return 1 # 0 = true, 1 = false
-		echo "loop"
-		
-	done
-	
-}
-
 # Pick Illustrator version:
 function choose() {
 	
@@ -62,13 +47,13 @@ function choose() {
 	echo "Please pick the version of Illustrator"
 	echo "you would like to install these files to:"$'\n'
 	
-	select folder in "Cancel" "$1"
+	select folder in "Cancel" "${@}"
 		do
 			case $folder in
 				"Cancel")
 					# User cancled:
 					echo "Exiting …"
-					exit
+					return 1
 					;;
 				*[![:blank:]]*)
 					# Not blank or empty and is set:
@@ -85,29 +70,54 @@ function choose() {
 	
 }
 
-# Tidy up the terminal window:
-clear
+# https://www.cyberciti.biz/tips/handling-filenames-with-spaces-in-bash.html
+# https://bash.cyberciti.biz/guide/$IFS
+init() {
+	
+	# Tidy up the terminal window:
+	clear
+	
+	# Switch to glob folder location:
+	cd "/Applications" || exit 0
+	
+	# save and change IFS:
+	OLDIFS=$IFS 
+	
+	# Set new IFS:
+	IFS=$'\n'
+	
+	# Setup array of directories:
+	ILLUSTRATOR=("Adobe Illustrator"*)
+	
+	# Restore old IFS:
+	IFS=$OLDIFS
+	
+	# Check if we have anything:
+	if [ ${#ILLUSTRATOR[@]} -gt 0 ]; then
+		
+		# Create menu:
+		if choose "${ILLUSTRATOR[@]}"; then # `$folder` is now a global.
+			
+			# Do the installation:
+			install "$folder"
+			
+		fi
+		
+	else
+		
+		echo "Sorry, but Illustrator is not installed."
+		echo "Please install Illustrator and try again."$'\n'
+		
+	fi
+	
+	# Return the user to where they started and exit the script:
+	cd - > /dev/null && exit 0
+	
+	# Done!
+	# For more information about this script, see:
+	# https://github.com/mhulse/install-scripts
+	
+}
 
-# Switch to glob folder location:
-cd "/Applications"
-
-if check "Adobe Illustrator"*; then
-	
-	# Create menu:
-	choose "Adobe Illustrator"* # `$folder` is now a global.
-	
-	install "$folder"
-	
-else
-	
-	echo "Sorry, but Illustrator is not installed."
-	echo "Please install Illustrator and try again."$'\n'
-	
-fi
-
-# Exit program:
-exit 0
-
-# Done!
-# For more information about this script, see:
-# https://github.com/mhulse/swatches
+# Init the script:
+init
